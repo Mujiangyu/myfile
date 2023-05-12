@@ -24,14 +24,14 @@ public class FileDemo3 {
 
         //返回文件的绝对路径
         File f3 = new File("FileDemo1");
-        File absoluteFile = f3.getAbsoluteFile();
-        System.out.println(absoluteFile);
+        String path = f3.getAbsolutePath();
+        System.out.println(path);
         System.out.println("==================================");
 
         //返回文件的定义时路径
         File f4 = new File("FileDemo1");
-        File absoluteFile1 = f4.getAbsoluteFile();
-        System.out.println(absoluteFile1);
+        String path1 = f4.getPath();
+        System.out.println(path1);
         System.out.println("==================================");
 
         //获得文件的名字
